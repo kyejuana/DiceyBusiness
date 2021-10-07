@@ -1,0 +1,20 @@
+body {
+    margin-top: 10em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LknQMARbOutK3EhAk18Bu57PqQW_7zdtcg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position:inherit;
+    background-size:cover;
+}
+.die {
+    height: 70px;
+    width: 70px;
+    /* border: 1px black solid; */
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
