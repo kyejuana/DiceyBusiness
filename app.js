@@ -73,8 +73,9 @@ class Die {
     document.getElementById("add-dice").addEventListener("click", function() {
         let sum = 0;
         for (a = 0; a < diceArr.length; a++) {
-        sum = sum + dice[a].divText;
+        sum += diceArr[a].value;
         }
+        
         alert("The sum of your roll is: "+ sum);
     });
     // dieFace() {

@@ -1,20 +1,24 @@
 body {
     margin-top: 10em;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LknQMARbOutK3EhAk18Bu57PqQW_7zdtcg&usqp=CAU);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxL1DgpRrOrahse9Iv8OB_W1b9JDpZHbW7sbzItOu5xqI9Eg6Y8IeiWUucQCp8ZSLL3n0&usqp=CAU);
     background-repeat: no-repeat;
     background-position:inherit;
     background-size:cover;
 }
 .die {
-    height: 70px;
-    width: 70px;
-    /* border: 1px black solid; */
-    font-size: 90px;
+    /*height: 100px;*/
+    /*width: 100px;*/
+    /*border: 1px black solid; */
+    font-size: 150px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 button {
-    background-color: red;
+    background-color: black;
+    color: goldenrod;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;
+  
 }
